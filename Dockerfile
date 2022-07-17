@@ -6,5 +6,4 @@ WORKDIR /app
 COPY . /app
 ENV GOPATH /go
 RUN go install github.com/gocopper/cli/cmd/copper@v1.1.4
-RUN /go/bin/copper build .
 
