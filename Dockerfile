@@ -5,5 +5,4 @@ RUN apk add --no-cache git make build-base nodejs npm go
 WORKDIR /app
 COPY . /app
 ENV GOPATH /go
-RUN go install github.com/gocopper/cli/cmd/copper@v1.1.4
-
+RUN go install github.com/gocopper/cli/cmd/copper@v1.2.2
